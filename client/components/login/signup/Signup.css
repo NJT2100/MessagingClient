@@ -1,0 +1,46 @@
+h1 {
+    margin-bottom: 5vh;
+}
+
+input[type="text"], input[type="email"], input[type="password"] {
+    font-size: 1.1em;
+    font-weight: bold;
+    text-align: center;
+    width:300px;
+    border: none;
+    border-bottom: 3px solid #000000;
+    background: transparent;
+    margin-bottom: 10px;
+    padding-bottom: 5px;
+}
+
+.btn-submit {
+    font-size: 1.2em;
+    width: 300px;
+    border: none;
+    border-radius: 20px;
+    color: #ffffff;
+    background-color: #0B4379;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 16px;
+    padding-right: 16px;
+ }
+
+ .btn-submit:hover {
+     background-color: #0B4059;;
+ }
+
+.signup-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: auto;
+    width: 50%; 
+}
+
+.error-message {
+    color: #ff0000;
+    text-align: center;
+    width: 300px;
+}
